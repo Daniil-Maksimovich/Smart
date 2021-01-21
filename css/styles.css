@@ -151,11 +151,11 @@ section {
 .burger-menu__nav {
   width: 100%;
   position: fixed;
-  top: -100%;
-  left: 0;
+  top: 0;
+  right: -100%;
   background-color: #ececec;
   -webkit-transition: .2s;
-  transition: .2s;
+  transition: .3s;
   padding-top: 110px;
   padding-bottom: 30px;
 }
@@ -166,6 +166,7 @@ section {
   display: block;
   position: relative;
   font-size: 23px;
+  z-index: 1;
   text-transform: uppercase;
   color: #706b73;
 }
@@ -209,11 +210,8 @@ section {
 }
 
 .burger-menu.active .burger-menu__nav {
-  top: 0;
-}
-
-.burger-menu.active .burger-menu__nav a {
-  opacity: 1;
+  right: 0;
+  z-index: 1;
 }
 
 .home {

@@ -40,7 +40,7 @@ const sections = Array.from(document.querySelectorAll('section'));
 anchors.forEach(link => {
 
     link.addEventListener('click', e => {
-        e.preventDefault()
+        e.preventDefault();
         const machedSec = sections.filter(sec => e.target.dataset.url === sec.className);
         const sectionCoord = machedSec[0].getBoundingClientRect();
         const { body } = document;
@@ -62,51 +62,12 @@ $(document).ready(function(){
         dots: true
     });
     document.querySelectorAll('.slider button').forEach((btn,index) => {
-        btn.classList.add('orange-btn')
-        btn.classList.add('shadow')
+        btn.classList.add('orange-btn');
+        btn.classList.add('shadow');
         if(index == 0){
-            btn.innerHTML = `<i class="fa fa-angle-left" aria-hidden="true"></i>`
+            btn.innerHTML = `<i class="fa fa-angle-left" aria-hidden="true"></i>`;
         } else{
-            btn.innerHTML = `<i class="fa fa-angle-right" aria-hidden="true"></i>`            
+            btn.innerHTML = `<i class="fa fa-angle-right" aria-hidden="true"></i>`   ;         
         }
-    })
+    });
 });
-
-
-
-
-
-
-
-// const revSliderBtnsTop = Array.from(document.querySelectorAll('.reviews__slider__btn'));
-// const revSliderBtnsBot = Array.from(document.querySelectorAll('.reviews__slider__btns-bot span'));
-// const revSlides = Array.from(document.querySelectorAll('.reviews__slide'));
-// const revSlider = document.querySelector('.reviews__slider')
-
-// revSliderBtnsTop.forEach(bt => {
-//     let counter = 0;
-//     bt.addEventListener('click', () => {
-//         if(bt.className.includes('right')){
-//             console.log(counter)
-//             if(counter < 2){
-//                 counter++
-//                 setInterval(() => {
-//                     if(revSlider.scrollLeft !== revSlides[counter].offsetLeft){
-//                         revSlider.scrollLeft += 5
-//                     } 
-//                 }, 1);
-//             }
-//         } else{
-//             console.log(counter)
-//             if(counter !== 0){
-//                 console.log(123)
-//                 counter--
-//                 setInterval(() => {
-//                     if(revSlider.scrollLeft !== revSlides[counter].offsetLeft){
-//                         revSlider.scrollLeft -= 5
-//                     } 
-//                 }, 1);
-//             }
-//         }
-//     })
-// });
