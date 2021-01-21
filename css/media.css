@@ -1,0 +1,214 @@
+@media screen and (max-width: 1200px) {
+  .procces__content__wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .procces__content__wrapper__inner {
+    display: block;
+  }
+  .procces__content__wrapper__inner .procces__content__item:first-child {
+    margin-bottom: 50px;
+  }
+  .heading {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .services__content {
+    margin-left: 40px;
+  }
+  .services__img img {
+    height: 350px;
+  }
+  .reviews__slide__item {
+    padding: 70px 20px 30px;
+  }
+  .reviews__slide__item i {
+    margin: 20px 0 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .services .container {
+    display: block;
+  }
+  .services__options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .services__options .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .services__option {
+    margin: 10px;
+    height: 90px;
+    width: 90px;
+  }
+  .services__content {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .services__content p {
+    line-height: 1.6em;
+  }
+  .services__content h2 {
+    padding-left: 0;
+    white-space: inherit;
+    line-height: 1.3em;
+  }
+  .services__content .button {
+    margin: 0;
+    margin-top: 30px;
+  }
+  .services__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .reviews__slide__item.sec {
+    display: none !important;
+  }
+  .reviews__slide__item {
+    width: 80%;
+  }
+  .reviews__slide {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    padding: 60px 0;
+  }
+  .heading {
+    padding-bottom: 50px;
+  }
+  .header__logo {
+    padding: 10px 20px;
+  }
+  .header__logo p {
+    font-size: 30px;
+  }
+  .burger-menu__btn {
+    height: 40px;
+    width: 40px;
+  }
+  .burger-menu__btn span::after {
+    top: 8px;
+  }
+  .burger-menu__btn span::before {
+    top: -8px;
+  }
+  .burger-menu__nav a {
+    font-size: 19px;
+    margin: 10px 0;
+  }
+  .heading h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+  }
+  .heading p {
+    max-width: 80%;
+  }
+  .home__form {
+    display: block;
+    margin: 50px auto 0 auto;
+  }
+  .procces__content__wrapper__inner .procces__content__item:first-child {
+    margin-bottom: 20px;
+  }
+  .procces__content__wrapper {
+    display: block;
+  }
+  .procces__content__item {
+    width: 70%;
+    margin: 40px auto;
+  }
+  .services__content {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer .container p {
+    margin: 20px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home__form {
+    width: 100%;
+    padding: 20px 15px;
+  }
+  .home__form h2 {
+    margin-bottom: 20px;
+  }
+  .home__form input[type="text"],
+  .home__form input[type="email"] {
+    font-size: 15px;
+  }
+  .home__form .textarea {
+    padding-bottom: 40px !important;
+  }
+  .services__options .wrapper {
+    display: block;
+  }
+  .services__option {
+    height: 100px;
+    width: 100px;
+  }
+  .button {
+    padding: 14px 0;
+    font-size: 15px;
+  }
+  .procces__content__item {
+    width: 90%;
+  }
+  .works__content__item {
+    width: 95%;
+    height: 300px;
+  }
+  .services__content {
+    height: 500px;
+  }
+  .team__item-wrapper.central {
+    margin: 40px 0 0 0;
+  }
+  .reviews__slide__item {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .reviews__slide__item p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .services__content {
+    height: 600px;
+  }
+}
